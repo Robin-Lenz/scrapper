@@ -22,7 +22,7 @@ response = requests.get(url, headers=headers)
 if (response.status_code == 200):
 
 	# Save the content to a file
-	with open(f"data/{ticker}.csv", 'wb') as file:
+	with open(f"{ticker}.csv", 'wb') as file:
 		file.write(response.content)
 	print('File downloaded successfully')
 
@@ -35,7 +35,7 @@ x = []
 y = []
 
 #extract data from csv
-with open(f"data/{ticker}.csv", mode='r', newline='') as csv_file:
+with open(f"{ticker}.csv", mode='r', newline='') as csv_file:
 	csv_reader = csv.reader(csv_file)
 
 	# Skip the header row
