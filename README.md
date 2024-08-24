@@ -17,12 +17,12 @@ Make sure you have the following Python packages installed:
 
 Clone the Repository:
 
-	git clone https://github.com/yourusername/stock-price-visualization.git
+	git clone git@github.com:Robin-Lenz/scrapper.git stock-price-visualization
 	cd stock-price-visualization
 
 Run the Script:
 
-	python stock_price_visualization.py
+	python3 stock_price_visualization.py
 
 Enter the Stock Ticker:
 
